@@ -31,7 +31,7 @@ collection_name | string | Collection Name item belongs to.
 destination_user_id | int | UserID to send the item to. (This is default to the user that submits the item right now)
 status | int | [Item Submission Statuses](/IItemSubmission.md#item-submission-statuses)
 wax_item_definition | int/null | Once item is created, this will be its item_definition
-json_attributes | json | This holds item attributes example: `markdown_description`
+json_attributes | json | This holds item [Dynamic Attributes](/IItemSubmission.md#attributes).
 created_at | timestamp | Created timestamp
 updated_at | timestamp | Updated timestamp
 
@@ -43,3 +43,5 @@ market_name | string | Full market name e.g. Sticker | WAX DOG.
 image_generic | string | Item Image
 color | string | Hexadecimal color for rarity color.
 status | int | [Item Submission Statuses](/IItemSubmission.md#item-submission-statuses)
+
+## Attributes
