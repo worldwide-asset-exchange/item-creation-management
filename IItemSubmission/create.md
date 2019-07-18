@@ -8,7 +8,7 @@ Create a new item using the API. Then once created item, will either be approved
 
 #### Authentication
 
-API key required.
+API key required. Input name is `api_token`.
 
 #### Input
 
