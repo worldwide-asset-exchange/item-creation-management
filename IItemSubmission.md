@@ -51,4 +51,4 @@ Below is a list of some useful/important pre-defined attributes that you may wan
 
 Attribute name | Description
 --------- | -------- 
-Verified_Authentic | Value may be Yes or No.
+Verified_Authentic | Value may be Yes or No. If not provided, defaults to No. Verified Collectible means that you own the image on this submission and can provide proof of ownership. These submissions take longer to approve and will show as Verified Authentic in WAX Trade and OPSkins.
