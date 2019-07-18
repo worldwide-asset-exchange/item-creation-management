@@ -45,3 +45,9 @@ color | string | Hexadecimal color for rarity color.
 status | int | [Item Submission Statuses](/IItemSubmission.md#item-submission-statuses)
 
 ## Attributes
+The json_attributes field allows you to add key=>value pairs with attributes for your submission. Those will be public available via WAX Trade API.
+
+Below is a list of some useful/important pre-defined attributes that you may want to add:
+Attribute name | Description
+--------- | -------- 
+"Verified_Authentic" | Value may be "Yes" or "No". If not provided, defaults to "No". Verified Collectible means that you own the image on this submission and can provide proof of ownership. These submissions take longer to approve and will show as 'Verified Authentic' in WAX Trade and OPSkins.
