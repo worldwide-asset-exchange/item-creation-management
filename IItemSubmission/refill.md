@@ -8,7 +8,7 @@ Refill items from a previously approved submission. Items will be generated into
 
 #### Authentication
 
-API key required.
+API key required. Input name is `api_token`.
 
 #### Input
 
