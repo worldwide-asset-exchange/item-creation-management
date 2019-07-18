@@ -8,7 +8,7 @@ Upload image provided by the user and return the image url from static.wax.io.
 
 #### Authentication
 
-API key required.
+API key required. Input name is `api_token`.
 
 #### Input
 
