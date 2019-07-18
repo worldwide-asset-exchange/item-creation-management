@@ -8,7 +8,7 @@ Retrieve submission data, that matches or is like `market_name`.
 
 #### Authentication
 
-API key required.
+API key required. Input name is `api_token`.
 
 #### Input
 
