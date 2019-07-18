@@ -8,7 +8,7 @@ Retrieve user submission data. Submission ID may be applied. If no ID is provide
 
 #### Authentication
 
-API key required.
+API key required. Input name is `api_token`.
 
 #### Input
 
