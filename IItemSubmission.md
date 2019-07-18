@@ -52,4 +52,4 @@ Below is a list of some useful/important pre-defined attributes that you may wan
 Attribute name | Description
 --------- | -------- 
 Verified_Authentic | Value may be Yes or No. If not provided, defaults to No. Verified Collectible means that you own the image on this submission and can provide proof of ownership. These submissions take longer to approve and will show as Verified Authentic in WAX Trade and OPSkins.
-product_box_display | Comma-separated names of the attributes you want to be visible in OPSkins and WAX Trade product boxes. Limited to 5 custom attributes. All the other attributes are still available via API to be used on dApps/websites. Example: `{"product_box_display": "collection, class, mana, hp}`
+product_box_display | Comma-separated names of the attributes you want to be visible in OPSkins and WAX Trade product boxes. Limited to 5 custom attributes. All the other attributes are still available via API to be used on dApps/websites. Example: `{"product_box_display": "collection, class, mana, hp"}`
