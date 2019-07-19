@@ -31,7 +31,7 @@ collection_name | string | Collection Name item belongs to.
 destination_user_id | int | UserID to send the item to. (This is default to the user that submits the item right now)
 status | int | [Item Submission Statuses](/IItemSubmission.md#item-submission-statuses)
 wax_item_definition | int/null | Once item is created, this will be its item_definition
-json_attributes | json | This holds item [Dynamic Attributes](/IItemSubmission.md#attributes).
+json_attributes | json | This holds item [Dynamic Attributes](/IItemSubmission.md#dynamic-attributes).
 created_at | timestamp | Created timestamp
 updated_at | timestamp | Updated timestamp
 
@@ -44,7 +44,7 @@ image_generic | string | Item Image
 color | string | Hexadecimal color for rarity color.
 status | int | [Item Submission Statuses](/IItemSubmission.md#item-submission-statuses)
 
-## Attributes
+## Dynamic Attributes
 The json_attributes field allows you to add key:value pairs that represent attributes of your item. Those will be public available via WAX Trade API.
 
 Below is a list of some useful/important pre-defined attributes that you may want to add:
