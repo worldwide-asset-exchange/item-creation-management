@@ -14,7 +14,7 @@ API key required. Input name is `api_token`.
 
 | Parameter | Type | Required | Description |
 | - | - | :-: | - |
-| internal_app_id | int | + | WAX App ID. By default you can use `12 - WAX Stickers`, `14 - WAX Digital Art` or `32 - WAX Collectible Cards` |
+| internal_app_id | int | + | WAX App ID. Enabled apps are `12 - WAX Stickers`, `14 - WAX Digital Art` or `32 - WAX Collectible Cards`. |
 | name | string | + | Item name (simpler/shorter version of `makert_name`) -> "WAX Dog" |
 | market_name | string | + | Full market name (must be unique per `internal_app_id`)  -> "Sticker &#124; WAX Dog [Special Edition]" |
 | image_generic | string | + | Item image url. Must be a static.wax.io URL. You can use our [Upload Image](/upload-image.md) endpoint to upload your image and get a valid static.wax.io image url. |
