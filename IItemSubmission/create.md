@@ -25,7 +25,7 @@ API key required. Input name is `api_token`.
 | external_id | string |   | Searchable id that links this item with your records (not guaranteed to be unique in our side). |
 | instant_sell_enabled | bool |   | Enable instant sell for this item. Only available for items with de Verified_Authentic json_attribute set to "Yes". Default is false. |
 | instant_sell_value | int |   | Instant sell value for each item in USD cents. Upon submission, you will be charged this value*amount from your OPSkins balance. If the submission is denied, funds will return to your account. |
-| json_attributes | json |   | [Dynamic Item Attributes](/IItemSubmission.md#attributes) in json format. |
+| json_attributes | json |   | [Dynamic Item Attributes](/IItemSubmission.md#dynamic-attributes) in json format. |
 
 ### Output
 
