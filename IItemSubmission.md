@@ -22,7 +22,7 @@ id | int | Submission ID
 submission_user_id    | int | UserID of user that submitted the item
 internal_app_id| int | Internal App ID
 name | string | Simpler name for an item (compared to full market_name) -> "WAX Dog".
-market_name | string | Full market name -> "Sticker &#124; WAX Dog".
+market_name | string | Full market name -> "Sticker &#124; WAX Dog [Special Edition]".
 image_generic | string | Item Image
 amount | int | Amount requested
 color | string | Hexadecimal color for rarity color.
