@@ -18,7 +18,7 @@ Status | Desciption
 ## Standard Item Submission Object
 Parameter | Type | Description
 --------- | -----| -------- 
-id | int | Submission ID
+id | int | Submission ID.
 submission_user_id    | int | UserID of user that submitted the item.
 internal_app_id| int | Internal App ID.
 name | string | Simpler name for an item (compared to full market_name) -> "WAX Dog".
@@ -38,7 +38,7 @@ updated_at | timestamp | Updated timestamp.
 ## Minified Item Submission Object
 Parameter | Type | Description
 --------- | -----| -------- 
-id | int | Submission ID
+id | int | Submission ID.
 market_name | string | Full market name e.g. Sticker | WAX DOG.
 image_generic | string | Item Image.
 color | string | Hexadecimal color for rarity color.
