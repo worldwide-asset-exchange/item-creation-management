@@ -1,6 +1,6 @@
 ## Refill
 
-Refill items from a previously approved submission. Items will be generated into the submission owner inventory, and from there, they can be moved away using WAX Trade API's.
+Refill items from a previously approved submission. Items will be generated into the submission owner WAX Trade Inventory and, from there, they can be sent to another user using the [WAX Trade API](https://github.com/OPSkins/trade-opskins-api).
 
 #### HTTP Request
 
