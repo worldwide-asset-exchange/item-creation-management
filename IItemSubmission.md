@@ -63,3 +63,17 @@ The resultant unique attributes can be added to the `product_box_display`. Examp
  - `{"unique_rule_bite_chance": "unique_float_0_1", "unique_rule_happiness_level": "unique_integer_0_100", "product_box_display": "unique_happiness_level"}`. 
  
 In the example above, the `unique_bite_chance` attribute will be available via API only, while the `unique_happiness_level` attribute will be visible in the Product Box for WAX Trade and OPSkins (note that the `unique_rule_` prefix is replaced by `unique_` in the resultant random/unique attribute).
+
+Here is an example of a complete `json_attributes` input: 
+ ```
+ json{
+  "Verified_Authentic": "Yes",
+  "markdown_description": "This is a <strong>cool</strong> description field!",
+  "class": "Fighter",
+  "mana": 150,
+  "hp": 90,
+  "unique_rule_bite_chance": "unique_float_0_1",
+  "unique_rule_happiness_level": "unique_integer_0_100",
+  "product_box_display": "class, hp, unique_happiness_level"
+}
+```
