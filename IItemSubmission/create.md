@@ -17,7 +17,7 @@ API key required. Input name is `api_token`.
 | internal_app_id | int | + | WAX App ID. Enabled apps are `12 - WAX Stickers`, `14 - WAX Digital Art` or `32 - WAX Collectible Cards`. |
 | name | string | + | Item name (simpler/shorter version of `makert_name`). <br> Example: "WAX Dog". |
 | market_name | string | + | Full market name (must be unique per `internal_app_id`). <br> Example: "Sticker &#124; WAX Dog [Special Edition]". |
-| image_generic | string | + | Item image url. Must be a static.wax.io URL. You can use our [Upload Image](/upload-image.md) endpoint to upload your image and get a valid static.wax.io image url. |
+| image_generic | string | + | Item image url. Must be a static.wax.io URL. You can use our [Upload Image](/IItemSubmission/upload-image.md) endpoint to upload your image and get a valid static.wax.io image url. |
 | amount | int | + | Number of items to be generated (copies). If you add Unique Attribute rules in the `json_attributes` input, those copies won't be identical. See the [Dynamic Item Attributes](/IItemSubmission.md#dynamic-attributes) section to learn more about the Unique Attributes. |
 | color | string | + | Color hex (#aa0000), related with rarity. |
 | rarity_name | string |   | Rarity name (Legendary, Rare, etc). |
