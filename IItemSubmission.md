@@ -19,30 +19,30 @@ Status | Desciption
 Parameter | Type | Description
 --------- | -----| -------- 
 id | int | Submission ID
-submission_user_id    | int | UserID of user that submitted the item
-internal_app_id| int | Internal App ID
+submission_user_id    | int | UserID of user that submitted the item.
+internal_app_id| int | Internal App ID.
 name | string | Simpler name for an item (compared to full market_name) -> "WAX Dog".
 market_name | string | Full market name -> "Sticker &#124; WAX Dog [Special Edition]".
-image_generic | string | Item Image
-amount | int | Amount requested
+image_generic | string | Item Image.
+amount | int | Amount requested.
 color | string | Hexadecimal color for rarity color.
-rarity_name | string | Name of the Rarity
+rarity_name | string | Name of the Rarity.
 collection_name | string | Collection Name item belongs to.
-destination_user_id | int | UserID to send the item to. (This is default to the user that submits the item right now)
-status | int | [Item Submission Statuses](/IItemSubmission.md#item-submission-statuses)
-wax_item_definition | int/null | Once item is created, this will be its item_definition
+destination_user_id | int | UserID to send the item to. (For now, it defaults to the user that submits the item).
+status | int | [Item Submission Statuses](/IItemSubmission.md#item-submission-statuses).
+wax_item_definition | int/null | Once the items are created, this will hold their def_id on WAX.
 json_attributes | json | This holds item [Dynamic Attributes](/IItemSubmission.md#dynamic-attributes).
-created_at | timestamp | Created timestamp
-updated_at | timestamp | Updated timestamp
+created_at | timestamp | Created timestamp.
+updated_at | timestamp | Updated timestamp.
 
 ## Minified Item Submission Object
 Parameter | Type | Description
 --------- | -----| -------- 
 id | int | Submission ID
 market_name | string | Full market name e.g. Sticker | WAX DOG.
-image_generic | string | Item Image
+image_generic | string | Item Image.
 color | string | Hexadecimal color for rarity color.
-status | int | [Item Submission Statuses](/IItemSubmission.md#item-submission-statuses)
+status | int | [Item Submission Statuses](/IItemSubmission.md#item-submission-statuses).
 
 ## Dynamic Attributes
 The `json_attributes` field allows you to add `key:value` pairs that represent attributes of your item. Those will be public available via WAX API's.
