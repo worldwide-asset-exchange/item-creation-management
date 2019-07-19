@@ -58,6 +58,7 @@ markdown_description | Use this attribute to provide a description for your item
 You can also make use of our Unique Attribute rules to make each item one-of-a-kind. This can be done by adding attributes with the prefix `unique_rule_` into the `json_attributes` field with the following structure for the attribute value: `unique_{type}_{min}_{max}` (for now, type is either `integer` of `float`). Examples:
  - "unique_rule_bite_chance": "unique_float_0_1" - Each item copy generated from this submission will have a `unique_bite_chance` attribute with a float value between 0 and 1.
  - "unique_rule_happiness_level": "unique_integer_0_100" - Each item copy generated from this submission will have a `unique_happiness_level` attribute with a integer value between 0 and 100.
+ 
 The resultant unique attributes can be added to the `product_box_display`. 
 Example: `{"unique_rule_bite_chance": "unique_float_0_1", "unique_rule_happiness_level": "unique_integer_0_100", "product_box_display": "unique_happiness_level"}`.
 In the example above, the `unique_bite_chance` attribute will be available via API only, while the `unique_happiness_level` attribute will be visible in the Product Box for WAX Trade and OPSkins.
