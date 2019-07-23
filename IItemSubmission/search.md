@@ -1,6 +1,6 @@
 ## Search
 
-Retrieve submission data, that matches or is like `market_name`.
+Retrieve submission data, that matches or like `market_name`.
 
 #### HTTP Request
 
@@ -8,7 +8,7 @@ Retrieve submission data, that matches or is like `market_name`.
 
 #### Authentication
 
-API key required. Input name is `api_token`.
+API key required. Input name = `api_token`
 
 #### Input
 
