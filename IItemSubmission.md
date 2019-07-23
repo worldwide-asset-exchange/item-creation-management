@@ -64,7 +64,7 @@ You can optionally add these unique attributes to the `product_box_display`. For
  
 In the example above, the `unique_bite_chance` attribute will be available via API only, while the `unique_happiness_level` attribute displays in the Product Box for WAX Trade and OPSkins.
 
->**Note.** As a result, the `unique_` prefix replaces the `unique_rule_` prefix.
+>**Note.** As a result, the final ramdonly generated attribute uses the `unique_` prefix instead of the `unique_rule_` prefix.
 
 Here is an example of a complete `json_attributes` input: 
 ```json
