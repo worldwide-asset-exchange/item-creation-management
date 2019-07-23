@@ -24,7 +24,7 @@ API key required. Input name is `api_token`.
 | collection_name | string |   | Collection name where the item belongs <br>**Tip.** Use to group your items together. You can also add the `collection_name` to your `market_name` input in order to make it unique. |
 | external_id | string |   | ID linking this item to your records <br>Example: You can use this optional identification field to store information about your item in a external location.<br><br>**Note.** It's not guaranteed to be a unique ID on our side. |
 | instant_sell_enabled | bool |   | Enable instant sell for items with the `Verified_Authentic` `json_attribute` set to `"Yes"` <br><br>Default value is set to false/no. |
-| instant_sell_value | int |   | Instant sell value for each item in USD cents<br><br>**Tip.** Upon submission, you get charged `instant_sell_value`\*`amount` from your WAX Points balance. Denied submissions get funds returned to corresponding account. |
+| instant_sell_value | int |   | Instant sell value for each item in USD cents<br><br>**Tip.** Upon submission, you get charged `instant_sell_value`\*`amount` from your WAX Points balance. Denied submissions get funds returned to your account. |
 | json_attributes | json |   | [Dynamic Item Attributes](/IItemSubmission.md#dynamic-attributes) in json format |
 
 ### Output
