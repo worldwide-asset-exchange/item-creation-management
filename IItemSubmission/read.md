@@ -1,6 +1,6 @@
 ## Read
 
-Retrieve user submission data. Submission ID may be applied. In the case of no ID, all submissions made by the user get returned to them. 
+Retrieve item submission data. Submission ID may be applied. In the case of no ID, all submissions made by the user get returned to them. 
 
 #### HTTP Request
 
