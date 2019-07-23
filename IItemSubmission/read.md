@@ -1,6 +1,6 @@
 ## Read
 
-Retrieve user submission data. Submission ID may be applied. If no ID is provided, will return all submissions made by the user.
+Retrieve item submission data. Submission ID may be applied. In the case of no ID, all submissions made by the user get returned to them. 
 
 #### HTTP Request
 
@@ -8,7 +8,7 @@ Retrieve user submission data. Submission ID may be applied. If no ID is provide
 
 #### Authentication
 
-API key required. Input name is `api_token`.
+API key required. Input name = `api_token`
 
 #### Input
 
