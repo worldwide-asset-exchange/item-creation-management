@@ -47,7 +47,7 @@ status | int | [Item Submission Statuses](/IItemSubmission.md#item-submission-st
 ## Dynamic Attributes
 The `json_attributes` field allows you to add `key:value` pairs that represent attributes of your item. Those pairs become publicly available via WAX's APIs.
 
-The following list describes some useful/important pre-defined attributes for you to add:
+The following list describes some useful/important pre-defined attributes that you may want to add:
 
 Attribute name | Description
 --------- | -------- 
